@@ -1,0 +1,35 @@
+PÁGINA DE VENDAS — BLOCK BLAST SEM ANÚNCIOS
+
+1) COMO PUBLICAR
+   Extraia este ZIP e envie o conteúdo completo da pasta para o Netlify
+   (ou arraste o próprio ZIP, se o seu fluxo permitir).
+   A página inicial é o arquivo index.html. Não mude o nome da pasta assets.
+
+2) CONFIGURAR CHECKOUT (OBRIGATÓRIO)
+   Abra index.html em um editor de texto.
+   Busque a linha: const CHECKOUT_URL = 'COLE_AQUI_O_LINK_DO_SEU_CHECKOUT';
+   Troque o texto entre as aspas pela URL REAL da sua oferta de R$ 4,99 na Lowify.
+   Exemplo fictício de formato: https://pay.lowify.com.br/checkout?product_id=SEU_ID
+   Os quatro botões de compra serão configurados ao mesmo tempo.
+   Se o link não estiver configurado, os botões mostram um aviso no preview.
+
+3) PIXEL META (OPCIONAL)
+   Busque a linha: const META_PIXEL_ID = '';
+   Coloque o ID do Pixel da oferta dentro das aspas.
+   A página disparará PageView e InitiateCheckout ao clicar no botão de compra.
+   Purchase deve ser configurado no checkout/confirmacao, não aqui.
+   Não foi copiado o pixel da antiga página de peixes.
+
+4) RASTREAMENTO
+   Os botões preservam utm_source, utm_medium, utm_campaign,
+   utm_content, utm_term, fbclid, gclid, src, sck e ttclid.
+
+5) VALIDAR ANTES DE ANUNCIAR
+   Verifique autorização para comercializar o APK/marca, funcionamento real
+   sem anúncios, compatibilidade Android, segurança da instalação, acesso
+   por e-mail e as condições de garantia de 7 dias.
+   Não anuncie iPhone para um produto que é apenas APK Android.
+   Imagens ilustrativas; não representam captura exata do software.
+
+6) CORES EDITÁVEIS NO INÍCIO DO CSS
+   Fundo #050D24 | Cards #0D1D43 | Amarelo #FFCB19 | Ciano #00E5F5.
